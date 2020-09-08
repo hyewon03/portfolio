@@ -141,34 +141,6 @@ body {
   color: #4a4a4a;
 }
 
-.myskills .skill .bar {
-  display: inline-block;
-  vertical-align: middle;
-  width: 646px;
-  height: 33px;
-  border-radius: 25px;
-  background-color: #f9f9f9;
-  position: relative;
-  line-height: 33px;
-}
-
-.myskills .skill .bar .inner-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 33px;
-  background: #bbe6ff;
-  border-radius: 25px;
-}
-
-.myskills .skill .bar .percentage {
-  font-size: 14px;
-  color: #9b9b9b;
-  position: absolute;
-  right: 20px;
-  top: 0;
-}
-
 /* contact */
 
 .contact {
@@ -203,24 +175,7 @@ body {
   width: 646px;
 }
 
-.contact input,
-.contact textarea {
-  display: block;
-  width: 100%;
-  border-radius: 4px;
-  border: solid 1px #ebebeb;
-  font-size: 16px;
-  padding: 10px 30px;
-}
-
-.contact input {
-  margin-bottom: 24px;
-}
-
-.contact textarea {
-  resize: none;
-  height: 222px;
-}
+/*about*/
 
 .about {
   height: 100vh;
@@ -241,10 +196,12 @@ body {
 .about p {
   font-size: 17px;
   color: #4a4a4a;
-  margin-left: 200px;
+  margin-left: 250px;
   margin-bottom: 100px;
-  padding-right: 200px
+  padding-right: 250px
 }
+
+/*project*/
 
 .project {
   height: 100vh;
@@ -257,22 +214,19 @@ body {
  float: left;
  width: 400px;
  height: 400px;
-
 }
 .project h1 {
   font-size: 40px;
   color: #4a4a4a;
-
+  padding-bottom: 100px;
 }
 .project p {
   float: right;
   font-size: 17px;
   color: #4a4a4a;
-  margin-right: : 300px;
-  margin-left: 70px;
-  margin-top: 0px;
- 
- 
+  margin-right: : 100px;
+  margin-left: 140px; 
+  margin-bottom: 300px;
 }
 
 
